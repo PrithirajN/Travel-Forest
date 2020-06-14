@@ -260,3 +260,73 @@ p, a, button, input {
   #current-users h3 {
     font-size: 4.5rem;
     margin-top: 0.75rem; }
+
+#locations {
+  margin: 7.5rem 0;
+  text-align: center;
+  color: white; }
+  #locations h2 {
+    font-size: 2.25rem;
+    text-transform: uppercase; }
+  #locations #header-link {
+    font-size: 1.75rem;
+    display: block;
+    color: #8a8a8a;
+    text-decoration: underline;
+    margin: 0.5rem 0 1.375rem; }
+    #locations #header-link:hover {
+      opacity: .7; }
+  #locations input {
+    background-color: transparent;
+    width: 18.75rem;
+    padding: 0 1.125rem 0.625rem;
+    display: block;
+    text-align: center;
+    margin: 4.5rem auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.38); }
+  #locations ::placeholder {
+    color: #d3d3d3; }
+  #locations h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  #locations ul {
+    font-size: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.125rem auto; }
+  #locations li {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.125rem;
+    list-style: none;
+    padding: 1.125rem 3.625rem; }
+    #locations li a {
+      cursor: pointer; }
+
+#testimonials {
+  background-color: rgba(227, 227, 227, 0.08);
+  margin: 12.5rem 0;
+  position: relative;
+  padding: 400px 0; }
+  #testimonials::before, #testimonials::after {
+    content: "";
+    height: 12vh;
+    background-color: rgba(227, 227, 227, 0.08);
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    border-right: 70vw solid white; }
+  #testimonials::before {
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    bottom: 100%; }
+  #testimonials::after {
+    clip-path: polygon(0 100%, 100% 0, 100% 0, 0 0);
+    top: 100%; }
+  #testimonials #testimonials-bg {
+    position: absolute;
+    width: 70vw;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0; }
